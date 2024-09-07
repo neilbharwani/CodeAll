@@ -1,0 +1,12 @@
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three cards in a row */
+  gap: 20px;
+  padding: 20px;
+}
+
+@media (max-width: 50px) {
+  .cards-container {
+      grid-template-columns: 1fr; /* Stack cards on smaller screens */
+  }
+}

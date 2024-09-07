@@ -1,0 +1,35 @@
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: linear-gradient(135deg, #252528, #111113);
+  border-radius: 10px;
+  padding: 30px;
+  color: white;
+  box-shadow: 0 0 15px rgba(142, 68, 173, 0.5), 0 0 15px rgba(52, 152, 219, 0.5);
+  width: 300px;
+  height: 175px;
+  margin: 20px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 30px rgba(142, 68, 173, 0.8), 0 0 30px rgba(52, 152, 219, 0.8);
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  color: #e0e0e0;
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: #b0b0b0;
+  font-size: 1rem;
+  text-align: center;
+}

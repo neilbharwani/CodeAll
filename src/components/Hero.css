@@ -1,0 +1,270 @@
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  z-index: 1;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  overflow-x: hidden; /* Prevent scrolling */
+}
+
+/* Style the scrollbar container */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+/* Style the scrollbar track (the part the thumb slides within) */
+::-webkit-scrollbar-track {
+  background: #000000; /* Light grey background */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Style the scrollbar thumb (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+  background: #ffffff; /* Darker grey for the thumb */
+  border-radius: 10px; /* Rounded corners */
+  transition: background 0.3s; /* Smooth color transition */
+}
+
+/* Style the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff; /* Even darker grey on hover */
+}
+
+
+/* Loader animation */
+.loader {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  z-index: 1;
+  font-size: 24px;
+}
+
+/* Fade-in animation for content */
+.fadeIn {
+  animation: fadeInEffect 1.5s ease-in-out;
+}
+
+@keyframes fadeInEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar .sign-up {
+  padding: 10px 20px;
+  background-color: #5378fa;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar .sign-up:hover {
+  background-color: #3b5ed3;
+}
+
+/* Hero section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  align-items: center;
+  background: #0d0d0d;
+  color: #fff;
+  text-align: center;
+}
+
+.passion {
+  width: 75%;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.6);
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #d3d3d3;
+  z-index: 1;
+}
+
+.cta-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  gap: 10px;
+  z-index: 1;
+}
+
+.cta-container input {
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #fff;
+  background-color: #000;
+  color: #fff;
+  z-index: 1;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center; /* Center text inside input */
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background-color: #5378fa;
+  color: #fff;
+  z-index: 1;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #3b5ed3;
+  z-index: 1;
+}
+
+/* Cards section */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+  gap: 20px;
+  padding: 50px;
+  z-index: 1;
+  background: #ffffff;
+  color: #000;
+  justify-items: center;
+}
+
+.card {
+  background-color: #202020;
+  color: #fff;
+  padding: 30px;
+  z-index: 1;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05) translateY(-10px);
+  z-index: 1;
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #d3d3d3;
+  z-index: 1;
+}
+
+.logo {
+  width: 4.5%;
+  height: 7%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 1;
+}
+
+.logo:hover {
+  transform: scale(1.05) translateY(5px);
+  z-index: 1;
+  /* box-shadow: 0 0 20px rgba(0, 0, 255, 0.5); */
+}
+
+.codeimg {
+  width: 40%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-left: -300px;
+  position: relative;
+  right: -20px;
+}
+
+
+.codeimg2 {
+width: 178%;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+/* margin-left: -20px;   */
+position: relative;
+right: 350px;
+}
+
+.codeimg:hover {
+  transform: scale(1.05) translateY(10px);
+  z-index: 1;
+  /* box-shadow: 0 0 20px rgba(0, 0, 255, 0.5); */
+}
+
+.codeimg2:hover {
+  transform: scale(1.05) translateY(10px);
+  z-index: 1;
+  /* box-shadow: 0 0 20px rgba(0, 0, 255, 0.5); */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-container {
+    flex-direction: column;
+  }
+}
