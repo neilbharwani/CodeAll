@@ -1,0 +1,42 @@
+/* src/index.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.chatbox {
+  background-color: #f1f1f1;
+  padding: 20px;
+  height: 100%;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.message {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.message.user {
+  background-color: #4caf50;
+  color: white;
+  align-self: flex-end;
+}
+
+.message.bot {
+  background-color: #eeeeee;
+  color: black;
+  align-self: flex-start;
+}
