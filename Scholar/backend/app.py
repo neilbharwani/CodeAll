@@ -6,13 +6,16 @@ import time
 from dotenv import load_dotenv
 from aixplain.factories import PipelineFactory
 
-load_dotenv()
+def configure():
+    load_dotenv()
+
+configure()
 
 app = Flask(__name__)
 CORS(app)
 
 pipeline = PipelineFactory.get("6775d5c625ed6ea48aa6fcc3")
-os.environ["TEAM_API_KEY"] = os.getenv("TEAM_API_KEY ")
+os.environ["TEAM_API_KEY"] = os.getenv("TEAM_API_KEY")
 
 user_cooldowns = {}
 
