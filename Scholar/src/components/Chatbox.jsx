@@ -10,7 +10,7 @@ function ChatBox() {
 
   const checkCooldown = async () => {
     try {
-      const response = await axios.get("http://127.0.0.1:5000/cooldown");
+      const response = await axios.get("https://scholar-codeall.onrender.com/cooldown");
       return response.data.cooldown;
     } catch {
       return 0;
@@ -46,7 +46,7 @@ function ChatBox() {
     ]);
 
     try {
-      const response = await axios.post("http://127.0.0.1:5000/chat", {
+      const response = await axios.post("https://scholar-codeall.onrender.com/chat", {
         question: input,
       });
 
