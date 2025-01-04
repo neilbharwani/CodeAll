@@ -16,7 +16,7 @@ function Projects() {
                         <li><Link to="/projects">Projects</Link></li>
                         <li><Link to="/events">Events</Link></li>
                     </ul>
-                    <button className="sign-up">Sign Up Free</button>
+                    {/* <button className="sign-up">Sign Up Free</button> */}
                 </nav>
                 <div className="hero">
                     <br></br>

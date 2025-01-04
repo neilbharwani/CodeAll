@@ -41,6 +41,11 @@ function Events() {
                             <td>9/6/2024</td>
                             <td>CodeAll Website</td>
                         </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>1/1/2025</td>
+                            <td>ScholarAI Launch</td>
+                        </tr>
                     </table>
                     <br></br>
                     <br></br>
