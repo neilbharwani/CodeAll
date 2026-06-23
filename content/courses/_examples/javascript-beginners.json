@@ -1,0 +1,33 @@
+{
+  "id": "javascript-beginners",
+  "slug": "javascript-beginners",
+  "title": "JavaScript for Beginners",
+  "description": "Go from zero to writing real JavaScript. Learn the language that makes the web interactive.",
+  "longDescription": "JavaScript is the programming language of the web. It's what makes buttons click, forms validate, and pages come alive. In this course we start from the very basics and build up to real programs you can actually use. No prior experience needed — just curiosity.",
+  "category": "JavaScript",
+  "difficulty": "Beginner",
+  "icon": "⚡",
+  "prerequisites": ["html-css-fundamentals"],
+  "whatYouLearn": [
+    "Variables, data types, and operators",
+    "Control flow with if/else and loops",
+    "Functions and scope",
+    "Working with the DOM",
+    "Events and user interaction",
+    "Fetch data from APIs"
+  ],
+  "lessons": [
+    { "id": "js-1", "slug": "what-is-javascript", "title": "What is JavaScript?", "description": "Understand what JavaScript is, where it runs, and why it's the most popular programming language in the world.", "videoFile": "lesson-01.mp4", "duration": "9:00", "durationSeconds": 540, "points": 15 },
+    { "id": "js-2", "slug": "variables-data-types", "title": "Variables & Data Types", "description": "Learn about var, let, const, and the different types of data JavaScript can hold.", "videoFile": "lesson-02.mp4", "duration": "12:30", "durationSeconds": 750, "points": 15 },
+    { "id": "js-3", "slug": "operators-expressions", "title": "Operators & Expressions", "description": "Arithmetic, comparison, and logical operators. Write your first expressions and understand truthiness.", "videoFile": "lesson-03.mp4", "duration": "11:00", "durationSeconds": 660, "points": 10 },
+    { "id": "js-4", "slug": "if-else-conditionals", "title": "If/Else & Conditionals", "description": "Make your code make decisions. Write if, else if, else, and ternary expressions.", "videoFile": "lesson-04.mp4", "duration": "13:20", "durationSeconds": 800, "points": 15 },
+    { "id": "js-5", "slug": "loops", "title": "Loops", "description": "Repeat actions with for, while, and forEach loops. Understand when to use each one.", "videoFile": "lesson-05.mp4", "duration": "14:00", "durationSeconds": 840, "points": 15 },
+    { "id": "js-6", "slug": "functions", "title": "Functions", "description": "Write reusable blocks of code with function declarations, expressions, and arrow functions.", "videoFile": "lesson-06.mp4", "duration": "16:15", "durationSeconds": 975, "points": 20 },
+    { "id": "js-7", "slug": "arrays", "title": "Arrays", "description": "Store and manipulate lists of data. Learn map, filter, reduce, and other array methods.", "videoFile": "lesson-07.mp4", "duration": "15:30", "durationSeconds": 930, "points": 20 },
+    { "id": "js-8", "slug": "objects", "title": "Objects", "description": "Work with key-value pairs to represent real-world data. Understand properties and methods.", "videoFile": "lesson-08.mp4", "duration": "13:45", "durationSeconds": 825, "points": 20 },
+    { "id": "js-9", "slug": "dom-manipulation", "title": "DOM Manipulation", "description": "Select, modify, and create HTML elements from JavaScript. Make your pages dynamic.", "videoFile": "lesson-09.mp4", "duration": "18:00", "durationSeconds": 1080, "points": 25 },
+    { "id": "js-10", "slug": "events", "title": "Events", "description": "Respond to user actions: clicks, key presses, form submissions, and more.", "videoFile": "lesson-10.mp4", "duration": "14:20", "durationSeconds": 860, "points": 20 },
+    { "id": "js-11", "slug": "async-fetch", "title": "Async JavaScript & Fetch", "description": "Understand promises, async/await, and fetch data from real APIs.", "videoFile": "lesson-11.mp4", "duration": "20:00", "durationSeconds": 1200, "points": 25 },
+    { "id": "js-12", "slug": "project-todo-app", "title": "Project: Build a To-Do App", "description": "Put everything together and build a complete to-do app with local storage. Your first real project.", "videoFile": "lesson-12.mp4", "duration": "28:00", "durationSeconds": 1680, "points": 25 }
+  ]
+}

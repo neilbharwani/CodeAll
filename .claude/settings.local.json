@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:codeall.org)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir=no --no-git --import-alias=\"@/*\")",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir=no --no-git --import-alias=\"@/*\" --yes)",
+      "Read(//Users/neilbharwani/Desktop/**)",
+      "Bash(npx create-next-app@latest codeall-temp --typescript --tailwind --eslint --app --src-dir=no --no-git --import-alias=\"@/*\" --yes)",
+      "Bash(cp -r /Users/neilbharwani/Desktop/codeall-temp/. /Users/neilbharwani/Desktop/CodeAll/)",
+      "Bash(rm -rf /Users/neilbharwani/Desktop/codeall-temp)",
+      "Bash(npm install *)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --no-src-dir --no-git)",
+      "Bash(npx create-next-app@latest codeall-app --typescript --tailwind --eslint --app --no-src-dir --no-git)",
+      "Bash(cp -r /Users/neilbharwani/Desktop/codeall-app/. /Users/neilbharwani/Desktop/CodeAll/)",
+      "Bash(rm -rf /Users/neilbharwani/Desktop/codeall-app)",
+      "Bash(rsync -a --exclude='.git' /Users/neilbharwani/Desktop/codeall-app/ /Users/neilbharwani/Desktop/CodeAll/)",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(wget -q -O /dev/null --server-response http://localhost:3000/courses)",
+      "Bash(wget -q -O /dev/null --server-response http://localhost:3000/login)",
+      "Bash(node -e ' *)",
+      "Bash(kill %1)",
+      "Bash(npx shadcn@latest init --yes)",
+      "Bash(npx shadcn@latest add card badge button separator --yes)",
+      "Bash(npx shadcn@latest add input textarea avatar progress --yes)"
+    ]
+  }
+}

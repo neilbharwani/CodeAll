@@ -1,0 +1,31 @@
+{
+  "id": "react-essentials",
+  "slug": "react-essentials",
+  "title": "React.js Essentials",
+  "description": "Build modern, interactive UIs with React. The most in-demand frontend framework right now.",
+  "longDescription": "React changed how we build for the web. Components, state, props — once it clicks, you'll never want to go back. This course takes you from your first component to building complete, real-world UIs. By the end you'll have the skills that employers are actively hiring for.",
+  "category": "React",
+  "difficulty": "Intermediate",
+  "icon": "⚛️",
+  "prerequisites": ["javascript-beginners"],
+  "whatYouLearn": [
+    "Components and JSX",
+    "Props and state",
+    "Event handling in React",
+    "React hooks: useState, useEffect",
+    "Fetching data and loading states",
+    "Build a complete React app"
+  ],
+  "lessons": [
+    { "id": "rx-1", "slug": "what-is-react", "title": "What is React?", "description": "Understand the component model, virtual DOM, and why React is so popular.", "videoFile": "lesson-01.mp4", "duration": "10:30", "durationSeconds": 630, "points": 15 },
+    { "id": "rx-2", "slug": "jsx-components", "title": "JSX & Components", "description": "Write your first React component with JSX. Understand the syntax and how it compiles.", "videoFile": "lesson-02.mp4", "duration": "13:00", "durationSeconds": 780, "points": 15 },
+    { "id": "rx-3", "slug": "props", "title": "Props", "description": "Pass data into components with props. Build reusable, configurable components.", "videoFile": "lesson-03.mp4", "duration": "11:30", "durationSeconds": 690, "points": 15 },
+    { "id": "rx-4", "slug": "state-usestate", "title": "State & useState", "description": "Make components interactive with the useState hook. Track and update values over time.", "videoFile": "lesson-04.mp4", "duration": "16:00", "durationSeconds": 960, "points": 20 },
+    { "id": "rx-5", "slug": "event-handling", "title": "Event Handling", "description": "Respond to user actions — clicks, inputs, form submissions — in React.", "videoFile": "lesson-05.mp4", "duration": "12:15", "durationSeconds": 735, "points": 15 },
+    { "id": "rx-6", "slug": "lists-keys", "title": "Lists & Keys", "description": "Render dynamic lists of data with map() and understand why keys matter.", "videoFile": "lesson-06.mp4", "duration": "11:00", "durationSeconds": 660, "points": 15 },
+    { "id": "rx-7", "slug": "useeffect", "title": "useEffect Hook", "description": "Run side effects in React — fetching data, subscriptions, timers.", "videoFile": "lesson-07.mp4", "duration": "15:30", "durationSeconds": 930, "points": 20 },
+    { "id": "rx-8", "slug": "fetching-data", "title": "Fetching Data from APIs", "description": "Fetch real data with useEffect and display loading states and errors.", "videoFile": "lesson-08.mp4", "duration": "18:00", "durationSeconds": 1080, "points": 20 },
+    { "id": "rx-9", "slug": "react-router", "title": "React Router", "description": "Build multi-page apps with React Router. Dynamic routes, navigation, and URL params.", "videoFile": "lesson-09.mp4", "duration": "16:00", "durationSeconds": 960, "points": 20 },
+    { "id": "rx-10", "slug": "project-react-app", "title": "Project: Build a Movie Browser", "description": "Build a complete movie browsing app with search, filters, and a detail page.", "videoFile": "lesson-10.mp4", "duration": "35:00", "durationSeconds": 2100, "points": 25 }
+  ]
+}

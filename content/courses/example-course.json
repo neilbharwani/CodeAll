@@ -1,0 +1,23 @@
+{
+  "id": "example",
+  "slug": "example",
+  "title": "Example Course",
+  "description": "Course Example",
+  "longDescription": "This course is an example.",
+  "category": "Testing",
+  "difficulty": "Beginner",
+  "icon": "🔧",
+  "prerequisites": [],
+  "whatYouLearn": [
+    "Install and configure Git",
+    "Track changes with commits",
+    "Branch, merge, and resolve conflicts",
+    "Push code to GitHub",
+    "Collaborate with pull requests",
+    "Build your developer portfolio"
+  ],
+  "lessons": [
+    { "id": "git-1", "slug": "what-is-version-control", "title": "What is Version Control?", "description": "Understand why version control exists and install Git for the first time.", "videoFile": "lesson-01.mp4", "duration": "1:00", "durationSeconds": 60, "points": 10 },
+    { "id": "git-2", "slug": "first-repository", "title": "Your First Repository", "description": "Initialize a repo, track files with git add, and save snapshots with git commit.", "videoFile": "lesson-02.mp4", "duration": "1:20", "durationSeconds": 60, "points": 15 }
+  ]
+}

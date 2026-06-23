@@ -1,0 +1,32 @@
+{
+  "id": "html-css-fundamentals",
+  "slug": "html-css-fundamentals",
+  "title": "HTML & CSS Fundamentals",
+  "description": "Build the foundation of every website. Learn HTML structure and CSS styling from scratch.",
+  "longDescription": "HTML and CSS are the building blocks of the web. Every website you've ever visited was built with these two languages. In this course you'll go from zero to building beautiful, structured web pages. Every lesson ends with something you can see and be proud of.",
+  "category": "Web Fundamentals",
+  "difficulty": "Beginner",
+  "icon": "🌐",
+  "prerequisites": [],
+  "whatYouLearn": [
+    "Structure web pages with semantic HTML5",
+    "Style elements with CSS properties and selectors",
+    "Build responsive layouts with Flexbox and Grid",
+    "Create forms and interactive UI elements",
+    "Deploy your first website"
+  ],
+  "lessons": [
+    { "id": "html-1", "slug": "what-is-html", "title": "What is HTML?", "description": "Discover what HTML is and why it powers every website. We'll write our very first HTML document together.", "videoFile": "lesson-01.mp4", "duration": "8:24", "durationSeconds": 504, "points": 15 },
+    { "id": "html-2", "slug": "html-tags-elements", "title": "HTML Tags & Elements", "description": "Learn about opening and closing tags, nested elements, and the most common HTML tags.", "videoFile": "lesson-02.mp4", "duration": "11:05", "durationSeconds": 665, "points": 15 },
+    { "id": "html-3", "slug": "headings-paragraphs-text", "title": "Headings, Paragraphs & Text", "description": "Master text formatting in HTML — headings, paragraphs, bold, italic, and content hierarchy.", "videoFile": "lesson-03.mp4", "duration": "9:30", "durationSeconds": 570, "points": 10 },
+    { "id": "html-4", "slug": "links-navigation", "title": "Links & Navigation", "description": "Build connections between pages with anchor tags. Learn relative vs absolute paths and nav menus.", "videoFile": "lesson-04.mp4", "duration": "10:15", "durationSeconds": 615, "points": 15 },
+    { "id": "html-5", "slug": "images-media", "title": "Images & Media", "description": "Add images and figures to your pages. Best practices for web performance and accessibility.", "videoFile": "lesson-05.mp4", "duration": "8:45", "durationSeconds": 525, "points": 10 },
+    { "id": "html-6", "slug": "lists-tables", "title": "Lists & Tables", "description": "Organise information with ordered and unordered lists. Create data tables with proper headers.", "videoFile": "lesson-06.mp4", "duration": "12:00", "durationSeconds": 720, "points": 15 },
+    { "id": "html-7", "slug": "forms-user-input", "title": "Forms & User Input", "description": "Build interactive forms with text inputs, dropdowns, checkboxes, and submit buttons.", "videoFile": "lesson-07.mp4", "duration": "14:20", "durationSeconds": 860, "points": 20 },
+    { "id": "css-1", "slug": "intro-to-css", "title": "Introduction to CSS", "description": "Connect CSS to HTML and start applying styles. Learn selectors, properties, values, and the cascade.", "videoFile": "lesson-08.mp4", "duration": "10:50", "durationSeconds": 650, "points": 15 },
+    { "id": "css-2", "slug": "colors-fonts-text", "title": "Colors, Fonts & Text", "description": "Make your pages beautiful with color, Google Fonts, font sizing, line height, and text alignment.", "videoFile": "lesson-09.mp4", "duration": "13:10", "durationSeconds": 790, "points": 15 },
+    { "id": "css-3", "slug": "the-box-model", "title": "The Box Model", "description": "Every element is a box — margin, border, padding, content. This unlocks CSS layout.", "videoFile": "lesson-10.mp4", "duration": "11:25", "durationSeconds": 685, "points": 20 },
+    { "id": "css-4", "slug": "flexbox", "title": "Flexbox Layout", "description": "Master Flexbox to create one-dimensional layouts with ease. Align, justify, and distribute elements.", "videoFile": "lesson-11.mp4", "duration": "16:00", "durationSeconds": 960, "points": 20 },
+    { "id": "css-5", "slug": "responsive-design", "title": "Responsive Design", "description": "Make your sites look great on every screen using media queries and responsive techniques.", "videoFile": "lesson-12.mp4", "duration": "14:30", "durationSeconds": 870, "points": 25 }
+  ]
+}

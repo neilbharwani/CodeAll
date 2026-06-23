@@ -1,0 +1,32 @@
+{
+  "id": "python-programming",
+  "slug": "python-programming",
+  "title": "Python Programming",
+  "description": "Learn Python from scratch. One of the most readable and powerful languages — perfect for beginners.",
+  "longDescription": "Python reads almost like English, which makes it the ideal first language. But don't be fooled — it's also used at Google, Netflix, and NASA. We start from zero and work up to building real scripts, working with data, and understanding the fundamentals every developer needs.",
+  "category": "Python",
+  "difficulty": "Beginner",
+  "icon": "🐍",
+  "prerequisites": [],
+  "whatYouLearn": [
+    "Python syntax and data types",
+    "Control flow and functions",
+    "Lists, dicts, and file handling",
+    "Object-oriented programming",
+    "Working with libraries",
+    "Build real scripts and programs"
+  ],
+  "lessons": [
+    { "id": "py-1", "slug": "intro-python", "title": "Introduction to Python", "description": "Set up Python, write your first script, and understand why Python is such a great language to learn.", "videoFile": "lesson-01.mp4", "duration": "10:00", "durationSeconds": 600, "points": 15 },
+    { "id": "py-2", "slug": "variables-types", "title": "Variables & Data Types", "description": "Integers, floats, strings, booleans — understand Python's data types and how to use variables.", "videoFile": "lesson-02.mp4", "duration": "12:00", "durationSeconds": 720, "points": 15 },
+    { "id": "py-3", "slug": "strings", "title": "Working with Strings", "description": "String methods, formatting, slicing, and f-strings. Text manipulation you'll use every day.", "videoFile": "lesson-03.mp4", "duration": "11:30", "durationSeconds": 690, "points": 10 },
+    { "id": "py-4", "slug": "conditionals-loops", "title": "Conditionals & Loops", "description": "Write if/elif/else statements and loop through data with for and while loops.", "videoFile": "lesson-04.mp4", "duration": "14:00", "durationSeconds": 840, "points": 15 },
+    { "id": "py-5", "slug": "functions-python", "title": "Functions", "description": "Define reusable functions, pass arguments, return values, and understand scope.", "videoFile": "lesson-05.mp4", "duration": "13:20", "durationSeconds": 800, "points": 20 },
+    { "id": "py-6", "slug": "lists-tuples", "title": "Lists & Tuples", "description": "Store collections of data. Slice, sort, iterate, and use list comprehensions.", "videoFile": "lesson-06.mp4", "duration": "15:00", "durationSeconds": 900, "points": 20 },
+    { "id": "py-7", "slug": "dicts-sets", "title": "Dictionaries & Sets", "description": "Key-value data with dictionaries and unique collections with sets.", "videoFile": "lesson-07.mp4", "duration": "13:00", "durationSeconds": 780, "points": 20 },
+    { "id": "py-8", "slug": "file-handling", "title": "File Handling", "description": "Read and write text files, work with CSV data, and handle exceptions.", "videoFile": "lesson-08.mp4", "duration": "12:30", "durationSeconds": 750, "points": 20 },
+    { "id": "py-9", "slug": "oop-python", "title": "Object-Oriented Python", "description": "Classes, objects, methods, inheritance — understand the object-oriented paradigm.", "videoFile": "lesson-09.mp4", "duration": "18:00", "durationSeconds": 1080, "points": 25 },
+    { "id": "py-10", "slug": "modules-libraries", "title": "Modules & Libraries", "description": "Use Python's standard library and install packages with pip.", "videoFile": "lesson-10.mp4", "duration": "11:00", "durationSeconds": 660, "points": 15 },
+    { "id": "py-11", "slug": "project-number-game", "title": "Project: Number Guessing Game", "description": "Build a complete number guessing game from scratch. Apply everything you've learned.", "videoFile": "lesson-11.mp4", "duration": "20:00", "durationSeconds": 1200, "points": 25 }
+  ]
+}

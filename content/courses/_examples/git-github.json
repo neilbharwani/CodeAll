@@ -1,0 +1,29 @@
+{
+  "id": "git-github",
+  "slug": "git-github",
+  "title": "Git & GitHub",
+  "description": "Version control is a superpower. Learn Git and GitHub to track code and collaborate like a pro.",
+  "longDescription": "Git is the time machine every developer uses. It lets you track changes, experiment safely, and undo any mistake. GitHub is where the world's code lives. This course takes you from never using Git to confidently branching, merging, and collaborating with teams.",
+  "category": "Tools",
+  "difficulty": "Beginner",
+  "icon": "🔧",
+  "prerequisites": [],
+  "whatYouLearn": [
+    "Install and configure Git",
+    "Track changes with commits",
+    "Branch, merge, and resolve conflicts",
+    "Push code to GitHub",
+    "Collaborate with pull requests",
+    "Build your developer portfolio"
+  ],
+  "lessons": [
+    { "id": "git-1", "slug": "what-is-version-control", "title": "What is Version Control?", "description": "Understand why version control exists and install Git for the first time.", "videoFile": "lesson-01.mp4", "duration": "9:00", "durationSeconds": 540, "points": 10 },
+    { "id": "git-2", "slug": "first-repository", "title": "Your First Repository", "description": "Initialize a repo, track files with git add, and save snapshots with git commit.", "videoFile": "lesson-02.mp4", "duration": "12:20", "durationSeconds": 740, "points": 15 },
+    { "id": "git-3", "slug": "staging-committing", "title": "Staging & Committing", "description": "Understand the staging area. Write great commit messages and use git diff.", "videoFile": "lesson-03.mp4", "duration": "11:00", "durationSeconds": 660, "points": 15 },
+    { "id": "git-4", "slug": "branching-merging", "title": "Branching & Merging", "description": "Create branches to work on features safely and merge them back. Resolve conflicts calmly.", "videoFile": "lesson-04.mp4", "duration": "16:30", "durationSeconds": 990, "points": 20 },
+    { "id": "git-5", "slug": "github-push-pull", "title": "GitHub: Push & Pull", "description": "Connect to GitHub, push your code, clone repos, and sync with git pull.", "videoFile": "lesson-05.mp4", "duration": "13:15", "durationSeconds": 795, "points": 15 },
+    { "id": "git-6", "slug": "pull-requests", "title": "Pull Requests & Collaboration", "description": "The professional workflow: fork, branch, commit, push, and open a pull request.", "videoFile": "lesson-06.mp4", "duration": "18:00", "durationSeconds": 1080, "points": 25 },
+    { "id": "git-7", "slug": "gitignore-best-practices", "title": ".gitignore & Best Practices", "description": "Exclude sensitive files with .gitignore. Learn best practices used by professional teams.", "videoFile": "lesson-07.mp4", "duration": "10:45", "durationSeconds": 645, "points": 15 },
+    { "id": "git-8", "slug": "github-pages-portfolio", "title": "GitHub Pages & Portfolio", "description": "Deploy projects for free with GitHub Pages and build your developer profile.", "videoFile": "lesson-08.mp4", "duration": "14:00", "durationSeconds": 840, "points": 20 }
+  ]
+}
