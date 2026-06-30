@@ -223,7 +223,6 @@ export default function HomeClient() {
           variants={stagger}
         >
           {[
-            { label: 'Students learning', value: 12000, suffix: '+' },
             { label: 'Video lessons', value: 79, suffix: '+' },
             { label: 'Always costs', value: '$0', isText: true },
           ].map((stat, i) => (
